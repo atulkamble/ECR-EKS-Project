@@ -6,6 +6,8 @@ Objective: Build a Docker image, store it in a private Amazon ECR repository, cr
 
 ## 1. Architecture
 
+![AWS ECR and EKS Architecture](./architecture.svg)
+
 ## 2. Prerequisites
 
 | Tool    | Purpose                     |
