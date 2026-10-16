@@ -52,11 +52,16 @@ aws sts get-caller-identity
 
 ```
 ECR-EKS-Project/
-├── index.html
-├── Dockerfile
-└── kubernetes/
-    ├── deployment.yaml
-    └── service.yaml
+├── code
+│   ├── Dockerfile
+│   └── index.html
+├── images
+│   └── architecture.svg
+├── k8s
+│   ├── deployment.yaml
+│   └── service.yaml
+├── LICENSE
+└── README.md
 ```
 
 ## 4. Project Code
