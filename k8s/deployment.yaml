@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mywebapp
+  name: myapp
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: mywebapp
+      app: myapp
   template:
     metadata:
       labels:
-        app: mywebapp
+        app: myapp
     spec:
       containers:
-        - name: mywebapp
-          image: ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/mywebapp:v1
+        - name: myapp
+          image: 535002879962.dkr.ecr.us-east-1.amazonaws.com/cloudnautic/myapp:latest
           ports:
             - containerPort: 80
