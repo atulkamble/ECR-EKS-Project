@@ -18,8 +18,15 @@ Objective: Build a Docker image, store it in a private Amazon ECR repository, cr
 | eksctl  | Create EKS cluster          |
 | AWS IAM | Permissions for ECR and EKS |
 
-### Install tools on macOS
+### Install tools on Winodws 
+```
+winget install --id Amazon.AWSCLI -e
+winget install --id Kubernetes.kubectl -e
+winget install --id eksctl.eksctl -e
+winget install --id Docker.DockerDesktop -e
+```
 
+### Install tools on macOS
 ```
 brew install awscli
 brew install kubectl
